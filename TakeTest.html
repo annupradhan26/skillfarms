@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>SkillFarms</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/test.css">
+<link rel="stylesheet" href = "css/sav.css">
+<link rel="stylesheet" href = "css/login1.css">
+<link rel="stylesheet" href = "css/signup.css">
+
+<link href="css/carousel.css" rel="stylesheet">
+
+<!-- Main Template Styles -->
+  <link href="css/main.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/meritrac1.css">
+<link rel="stylesheet" href="css/meritrac2.css">
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+
+
+  <style>
+
+.nav
+{
+  height:40px!important;
+}
+.container
+{
+  width:auto !important;
+}
+
+.parallax1
+{    
+    background-color:pink;
+    width:100%;
+    /*height:46em;*/
+    margin-top:0em;
+    background-image: url("img/student2.jpg");
+    background-repeat:no-repeat;
+    background-size:contain;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-position:center;
+    background-attachment:fixed;
+
+
+ }
+ 
+.parallax2
+{    
+    background-color:pink;
+    width:100%;
+    /*height:46em;*/
+    margin-top:0em;
+    background-image: url("img/page4.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-position:center;
+    background-attachment:fixed;
+
+
+ } 
+ .navbar
+ {
+  margin-bottom:0px;
+  background-color:rgba(0,0,0,0.4);
+
+
+ } 
+ .navbar-inverse
+ {
+  padding-top:1px;
+  padding-bottom:0.1em;
+ }
+  
+  .navbar-header
+  {
+     
+     
+   }
+  
+  .navbar-nav li a:hover,.navbar-nav li.active a
+  {
+
+     background-color:black!important;
+  }
+  .navbar-right
+  {
+    margin-right:10px;
+    
+  }
+ 
+  
+  .navbar-nav li 
+  {
+
+     letter-spacing:2px;
+     margin-top:25px;
+     margin-left:10px;
+ }
+  .navbar-brand
+  {
+    height:6em;
+  }
+  
+  
+  .class1
+  {
+    margin-top:auto;
+    margin-left:150px;
+    margin-right:100px;
+    width:1050px;
+    height:30em;
+  }
+  #id1
+  {
+     background-color:white;
+     background-attachment:fixed;
+     background-position:center;
+     background-position:center;
+     background-repeat:no-repeat;
+     background-size:cover;
+     height:300px;
+   }
+    .con1
+   {
+      
+      width:635px;
+      background-image: url("student1.jpg");
+      background-repeat:no-repeat;
+      background-size:cover;
+
+
+      
+   }
+   .con1:hover
+   {
+      
+      width:635px;
+      background-color:black;
+      /*--
+      background-image: url("company.jpg");
+      background-repeat:no-repeat;
+      background-size:cover;
+
+  --*/
+      
+   }
+
+
+      li
+      {
+        
+      }
+     
+      
+   .con2
+   {
+       width:650px;
+       background-color:rgb(255,255,255);
+       background-image: url("manage2.jpg");
+       background-repeat:no-repeat;
+       background-size:cover;
+   }
+   .con
+   {
+      width:100%;
+      height:600px;
+      background-color:black;
+   }
+   .content
+   {
+     float:left;
+     height:400px;
+     color:white;
+
+     font-family:"Georgia";
+     text-align:center;
+     font-size:"7";
+   }
+   .co
+   {
+      width:100%;
+      height:600px;
+      background-color:black;
+
+   }
+   h1
+   {
+    font-family:georgia;
+    text-align:center;
+   
+
+   }
+    .con3
+   {
+      background-color:blue;
+      width:635px;
+      background-image: url("team.jpg");
+      background-repeat:no-repeat;
+      background-size:cover;
+   }
+   .con4
+   {
+       width:650px;
+       background-color:pink;
+        background-image: url("unique.jpg");
+        background-repeat:no-repeat;
+        background-size:cover;
+   }
+   #whatwedo
+   {
+      height:400px;
+      font-family:"Times New Roman", Times, serif;
+
+     
+   }
+   
+    #whoarewe
+    {
+      height:400px;
+      font-family:"Times New Roman", Times, serif;
+    
+    }
+
+   #oursectors
+   {
+      height:500px;
+      font-family:"Times New Roman", Times, serif;
+     
+   }
+   
+
+    div.gallery {
+    
+    /*border: 1px solid #ccc;*/
+    float:left;
+    width:280px;
+    margin-right:6.5em;
+    margin-left:6.5em;
+    margin-bottom:100px;
+    position:relative;
+
+
+    }
+    
+    .gallery:hover
+    {
+      opacity: 0.5;
+    }
+    
+     .image {
+     display: block;
+     width: 100%;
+     height:auto;
+     }
+
+.overlay {
+  /*position: absolute;*/
+  height:100%;
+  width:100%;
+  opacity:0;
+  transition:.5s ease;
+  background-color:#008CBA;
+}
+.text {
+  width: 50px;
+  height: 50px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 25px;
+   background:black;
+   width:200px;
+   height:50px;
+   color:white;
+   font-size:25px;
+   font-family:Georgia;
+   position: absolute;
+   top:50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   -ms-transform: translate(-50%, -50%);
+   opacity:0.9;
+   padding-top:15px;
+   text-align:center;
+   /*background-color:rgba(0,0,0,0.9);*/
+   
+}
+.gallery:hover .overlay {
+   opacity:0.9;
+ 
+  
+}
+
+.gallery:hover
+{
+   opacity:0.8;
+}
+
+
+     div.gallery img {
+    width: 100%;
+    height: auto;
+    margin-right:100px;
+       }
+
+     div.desc {
+    padding:15px;
+    text-align: center;
+      };
+      
+  #milestones
+  {
+    height:200px;
+  }
+
+
+.scrollToTop
+    {
+       display: none;
+      position: fixed;
+      bottom: 20px;
+      right: 30px;
+      z-index: 99;
+      border: none;
+      outline: none;
+      cursor: pointer;
+     border-radius: 10px;
+     width:40px;
+     height:40px;
+     padding:15px;
+     cursor: pointer;
+    background-image: url("uparrow.png");
+    background-size:100%;
+
+   }
+     .scrollToTop:hover
+     {
+       opacity:0.5;
+     }
+
+.tranparentBg
+{
+  padding-top: 4em;
+  background-color: rgba(255,255,255,0.5);
+  /*opacity: 0.3;*/
+}
+
+
+.topnav {
+  overflow: hidden;
+  background-color: rgba(51,51,51,0.5);
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: black;
+  color: white;
+}
+
+.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) 
+{
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+  div.gallery
+  {
+    margin-left: 3.5em;
+  }
+  .mystyle
+  {
+    padding-left: 0em!important;
+    padding-right: 0em!important;
+  }
+  .heading
+  {
+    padding-top: 15em;
+    padding-bottom:15em;
+  }
+  .heading h1
+  {
+    font-size: 3em!important;
+  }
+
+
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+.mystyle
+{
+  padding: 4em; 
+  text-align:justify;
+}
+
+  </style>
+  
+  
+</head>
+<body data-spy="affix" data-target=".navbar" data-offset="80">
+
+  <div class="topnav navbar-fixed-top" id="myTopnav">
+  <a href="#" class="active"><img class="img-responsive" src="img/logo.png" class="img-thumbnail" style="height: 2.1em;">
+  <!-- <a href="#home" >Home</a> -->
+  <a href="index.html" style="font-size: 1em;">BACK</a>
+  <!-- <a href="#WhatWeDo" style="font-size: 1.5em;">WHAT WE DO</a>
+  <a href="#sectors" style="font-size: 1.5em;">SECTORS</a>
+  <a href="#milestones" style="font-size: 1.5em;">MILESTONES</a> -->
+  <a onclick="document.getElementById('signup').style.display='block'" style="font-size: 1em;">SIGN UP</a>
+  <a onclick="document.getElementById('login').style.display='block'" style="font-size: 1em;">LOGIN</a>
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+
+
+
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+  
+  
+
+
+
+<div class="parallax1">
+  <div class="heading" style="text-align: center;">
+    <h1 style="text-align: center;color:black;font-size:10em;font-family:times new Roman;padding-top:1.5em;padding-bottom: 1.8em;
+    margin-bottom: 0em;"> Tests</h1>
+  </div>
+</div>
+
+   <div class="container-fluid parallax2" id="AboutUs" style="background-color:black;">
+    <div class="mystyle" style="">
+      <div class="tranparentBg" >
+        <!-- <h1  style="text-align: center;color:black;font-family:times new Roman;margin-top:10px">WHO ARE WE</h1> -->
+        <h3>APPLICATION PROCESSING</h3>
+        <p style="color:black;font-size:20px; padding: 1em; font-weight: 900;"> Applying for an examination is the first touch point for a potential candidate. The traditional application procedure is tedious, error prone and causes delay in the process and is highly inconvenient for stakeholders.<br>
+          As the scope of internet increases, many examination bodies have begun leveraging technology to extend internet based services to their test takers. MeritTrac with a rich history of supporting large scale application processing for high stake examinations, has helped many examination bodies transform from pen and paper applications to OMR applications and now on to Computer based mode.<br>
+          Online Application System<br>
+          Online applications are accessible from virtually anywhere, and provide the convenience to fill in the application form at any time. Candidates create a login account for themselves in order to access the online form, for the first time. During subsequent logins, they fill in the necessary details, and submit the form. Post submission, they can at any time access their account, to either view the status of their application form, or even to download the e-Hall Tickets, once they are generated.<br>
+          Skillfarms designs and hosts an end-to-end Online Application System, for the examination body. This includes:<br>
+          Online Application form<br>
+          Online Payment gateway<br>
+          Online Test Booking System<br>
+          The solution is hosted in a secure data centre with a high uptime. Applicant data as entered by the Applicant would be captured online as per the rules defined and data will be accessible only to authorized personnel. All data pertaining to the Online Application system may be downloaded in an Excel sheet for use. The application would have two interfaces accessible through separate logins – one for applicants and another for authorized executives of the examination body. There will be a facility to upload a photo and scanned signature. The online forms will auto generate a unique application number. The system short lists candidates based on the rules defined by the examination body<br>
+        </p>
+
+        <h3>UST-IN-TIME QUESTION PAPER (JIT – QP)</h3>
+
+<p  style="color:black ;font-size:20px; padding: 1em;font-weight: 900;"> 
+  The increasing population and Gross Enrolment Ratio make examinations large in India. This has brought examinations under constant threat resulting in inconvenience to students and dent to the examination body’s reputation. Skillfarms Just in Time Question Paper Management (JIT-QP) is designed to mitigate the risks in examination.<br>
+  This is designed to secure examinations from vulnerabilities arising at Question Paper development, printing, logistics and storage before it reaches the test taker. JIT-QP ensures that the final question paper is decided randomly from a set of questions based on pre-defined rules. The final question paper is selected and made available at the exam centre in an encrypted mode just few hours before the exam.<br>
+  The Process
+  In today’s generation, it is important to leverage technology in the examination process that eliminates possibilities of paper leaks, delays and errors in results. Skillfarms Just in Time Question Paper Management (JIT-QP) is designed to addresses this very specific requirement.<br>
+  Process 1: Highly secured and monitored facilities authored by Subject Matter Experts<br>
+  Process 2: Multiple sets of question papers created by the Question Bank Manager<br>
+  Process 3: Uploaded data securely stored giving access to the Controller of Examination or authorized personnel<br>
+  Process 4: Final question paper to be selected by the Controller of Examination and encrypted in Question packs<br>
+  Process 5: Sending passwords to pre-registered mobile numbers of authorized representatives in test centres<br>
+  Process 6: Accessing the Question Pack with the password and printing them according to the classroom and seat allocation<br>
+  Process 7: The printed papers are packed classroom wise and are available only at the time of examination<br>
+  Process 8: Under surveillance room to access question papers and its printing<br>
+</p>
+
+<h3>COMPUTER BASED TEST</h3>
+
+<p style="color:black;font-size:20px; padding: 1em; font-weight: 900;"> Education across the country has transformed by leveraging and applying technology in almost all aspects. Teaching and learning methods have drastically changed over the years and the advent of technology has fostered this transformation.<br>
+
+Skillfarms, being a pioneer in the new age examination process in the country, has been supporting organizations to help them modernize their examination processes with the use of technology. We have supported many large and prestigious institutions, to help them transform from the Pen and Paper mode of delivery to Computer Based Tests (CBT). CBTs are increasingly being adopted these days for most of the high stake examinations. Since the beginning of this decade, over 100 large examinations in the country have migrated to computer based exams.<br>
+End-to-end Support<br>
+
+We provide end-to-end support for computer based exams from application processing to result processing. Testimony to our success is that we have successfully supported a large examination body, administer 9.4 lakh computer based exams across 151 cities in the country in a single drive – this being one of the largest University exams administered in India!
+Benefits of adopting CBT
+<br>
+100% security in overall exam process – Zero paper leaks, Zero Impersonation<br>
+100% transparency and audit trail addressing RTI and any other regulations<br>
+Enhanced prestige of the examination body by using next generation technologies<br>
+Limited logistics effort of printing and movement of paper and people<br>
+Instant score generation for faster rank list development<br>
+Convenience to candidates by giving them the option to choose examination dates and schedules from among multiple batches<br>
+ 
+
+Skillfarms has a robust examination management process that has helped it deliver CBTs across the country. We have the capability to deliver tests in over 350 cities and access to 2.6 lakh computer based test nodes. Our testing experts administer computer based tests on over 180 days a year. This experience has allowed us to master and develop best practices in CBT delivery. We have also delivered tests in remote corners of the country including the Andaman and Nicobar Islands, the North East and Jammu and Kashmir.<br>
+
+We have the experience of supporting Large Exam boards, Universities, Recruitment boards, Government departments and Corporates across the country. These examination bodies have leveraged our expertise to deliver zero error examinations – a benchmark for modern day test administration.</p>
+
+
+
+     </div>
+       </div>
+     </div> 
+    
+      
+
+  
+<script src="js/jquery.js" type="text/javascript"></script> 
+<script src="js/assets.js" type="text/javascript"></script> 
+<script src="js/carousel.js"></script> 
+<script src="js/init.js" ></script>
+<script>
+
+  /* ================= Animate Numbers Counter =============== */
+  $('.odometer').each(function(){
+    var the = $(this),
+      tm = the.attr('data-timer'),
+      af = the.attr('data-after'),
+      vl = the.attr('data-value'),
+      them = 'default',
+      t = $(this).attr('data-theme');
+
+    if (typeof t !== typeof undefined && t !== 'false') {
+      them = t; // 'car','default','digital','minimal','plaza','slot-machine','train-station'.
+    }
+
+    var o = new Odometer({
+      el: this,
+      theme: them
+    });
+    o.render();
+
+    $(this).appear(function() {
+      setInterval(function(){
+        o.update(vl);
+      }, tm);
+      if (typeof af !== typeof undefined && af !== 'false') {
+        the.after('<b class="aft-odo">'+af+'</b>');
+      }
+    },{accY: -100});
+    
+  });
+</script>
+
+
+
+
+<!-- <div id="parallax2"></div> -->
+
+                                   
+
+                        <!--********************milestones over here*********************-->
+
+
+
+
+                               <!--*************************Testimonials****************************-->    
+
+
+
+
+                                   
+
+                                   <!--********************testimonials over**********************-->
+
+
+
+   <script>
+
+
+                   
+
+$(document).ready(function(){
+  // Add scrollspy to <body>
+  $('body').scrollspy({target: ".navbar", offset: 50});   
+
+  // Add smooth scrolling on all links inside the navbar
+  $("#myNavbar a").on('click', function(event) {
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 1000, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    }  // End if
+  });
+});
+/*-------for keeping the division corresponding to  navbar scroll below navbar----*/
+</script>
+<script>
+window.addEventListener("hashchange", function() { scrollBy(0, -100) })
+</script>
+<!--over-->
+
+
+
+ 
+
+
+   <!-- **************FOOTER STARTS HERE****** -->  
+             <footer class="footer" role="contentinfo">
+        
+                
+            <section class="bg-darkgray" style='position:relative;'>
+                <div class='footer--info centered clearfix'>
+                    <div class="five columns">
+                        <h3 style="padding-bottom:10px">Contact</h3>
+                        <ul class="footer--info--contact">
+                            <li>  abc@abacus.com</li>
+                            <li>91-11-25106596/25107872</li>
+                            <li> New Delhi, Delhi, 110027,<br> Plot No F-159, 1st Floor,<br> Main Market, Rajouri Garden,India</li>
+                        </ul>
+                    </div>
+                    <div class="five columns">
+                        <h3 >Connect</h3>
+                        <ul class="footer--info--connect">
+                            <li><a href="#https://twitter.com/brolik" target="_blank"><img src='http://brolik.com/images/icon-twitter.svg' /></a></li>
+                            <li><a href="#https://www.facebook.com/taxpointdelhi/" target="_blank"><img src='http://brolik.com/images/icon-facebook.svg' /></a></li>
+                            <li><a href="#https://www.linkedin.com/company/brolik-productions-inc-" target="_blank"><img src='http://brolik.com/images/icon-linkedin.svg' /></a></li>
+                            <li><a href="#http://brolik.com/blog/rss" target="_blank"><img src='http://brolik.com/images/icon-rss.svg' /></a></li>
+                        </ul>
+                    </div>
+                    <div class="five columns">
+                        <h3 style="padding-bottom:10px">Navigate</h3>
+                        <ul class="footer--info--navigate">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Company</a></li>
+                            <li><a href="#">Sectors</a></li>
+                            <li><a href="#">Take a Test</a></li>
+                            <!-- <li><a href="#">Resources</a></li> -->
+                        </ul>
+                        <!-- <ul class="footer--info--navigate"> -->
+                            <!-- <li><a href="#">news/events</a></li> -->
+                            <!-- <li><a href="#">Contact us</a></li> -->
+                           <!-- <li><a href="#http://brolik.com/contact">Contact</a></li>-->
+                            <!-- <li><a href="#">Careers</a></li> -->
+                        <!-- </ul> -->
+                    </div>
+                    <!--
+                    <div class="four columns def" >
+                        <h3 style="padding-bottom:10px>SkillFarms Updates</h3>
+                         <form action="#" method="post" class="footer--info--updates">
+                            <label>Definitely not spam.</label><br />
+                            <input type="email" name="EMAIL" placeholder="YOUR EMAIL ADDRESS"><button type="submit">&#10095;</button>
+                         </form>
+                    </div>-->
+                </div>
+            </section>
+
+            <section class="bg-black" style='position:relative;'>
+                <div class="footer--copyright centered">
+                    <p>  Copyright © Abacus Management Consultants Pvt. Ltd. 2013 | <a href="#http://brolik.com/legal#Privacy+Policy">Privacy Policy</a> | <a href="#http://brolik.com/legal#Terms+%26+Conditions">Terms &amp; Conditions</a></p>
+                </div>
+            </section>
+
+      </footer>
+
+
+
+
+      <!-- script file for scroll up button-->
+
+
+       <a href="#" class="scrollToTop"></a>
+
+
+
+       <div id="login" class="modal" style="margin-top: 7em;">
+  
+  <form class="modal-content animate" action="/action_page.php">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('login').style.display='none'" class="close" title="Close Modal">&times;</span>
+      
+    </div>
+
+    <div class="container">
+      <label><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button type="submit">Login</button>
+      <input type="checkbox" checked="checked"> Remember me
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('login').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+
+
+<div id="signup" class="modal" style="margin-top: 7em;">
+  <span onclick="document.getElementById('signup').style.display='none'" class="close" title="Close Modal" 
+  style="margin-right: 13.7em;  margin-top: 2.7em;     z-index: 9999;">×</span>
+  <form class="modal-content animate" action="/action_page.php">
+    <div class="container">
+      <label><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" required>
+
+      <label><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+
+      <label><b>Repeat Password</b></label>
+      <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+      <input type="checkbox" checked="checked"> Remember me <br>
+      <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+
+      <div class="clearfix">
+        <button type="button" onclick="document.getElementById('signup').style.display='none'" class="cancelbtn">Cancel</button>
+        <button type="submit" class="signupbtn">Sign Up</button>
+      </div>
+    </div>
+  </form>
+</div>
+
+
+
+
+
+
+
+
+
+   <script>
+
+       $(document).ready(function(){
+  
+  //Check to see if the window is top if not then display but
+      $(window).scroll(function(){
+       if ($(this).scrollTop() > 100) {
+      $('.scrollToTop').fadeIn();
+    } else {
+      $('.scrollToTop').fadeOut();
+    }
+  });
+  
+  //Click event to scroll to top
+  $('.scrollToTop').click(function(){
+    $('html, body').animate({scrollTop : 0},800);
+    return false;
+  });
+  
+});
+</script>
+
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+
+<script>
+// Get the modal
+var modal2 = document.getElementById('signup');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal2) {
+        modal2.style.display = "none";
+    }
+}
+</script>
+
+
+<!---script file  over-->
+
+
+
+</body>
+</html>
